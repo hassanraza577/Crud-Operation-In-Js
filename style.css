@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #0a0134;
+    padding: 0 10px;
+}
+
+.container {
+    margin: auto;
+    max-width: 650px;
+    background-color: #fff;
+    max-height: 310px;
+    padding: 20px 15px;
+    border-radius: 7px;
+    box-shadow: 0 10px 30px rgba(235, 227, 227, 0.1);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+}
+
+#res1,
+#res2,
+#res3 {
+    display: flex;
+    justify-content: center;
+}
+
+.container :where(input, button) {
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.container input {
+    width: 200px;
+    font-size: 18px;
+    padding: 0 10px;
+    border: 1px solid #999;
+}
+
+.container button {
+    width: 150px;
+    background-color: #0a0134;
+    color: #fff;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.reses {
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.container h1 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    text-align: center;
+}
